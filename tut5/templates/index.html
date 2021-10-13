@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+    {{ cool_num }}
+    {% for name in names %}
+        <h3>{{name}}</h3>
+    {% endfor %}
+{% endblock %}
